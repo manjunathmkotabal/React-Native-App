@@ -2,9 +2,20 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: React-Native-App
+  description: |
+    Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
     github.com/project-slug: manjunathmkotabal/React-Native-App
+  links:
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: experimental
   owner: manjunath
